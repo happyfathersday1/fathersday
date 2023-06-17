@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js{
+     width: 100%;
+     height: 100%;
+     background-color: #2a3999;
+     background-image: url('');
+     background-size: cover;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+   }
+   
+.count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: rgb(5,31,75);
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+body{
+    background-color: #2a3999;
+}
+
+.intro{
+  min-height: 1075px;
+}
+.myimg {
+    border-radius: 20px 20px 20px 20px;
+    height:600px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.images{
+    margin-top: 80px;
+    display:flex;
+    min-height: 500px;
+
+}
+
+.firstnote{
+    /* position:absolute; */
+    /* letter-spacing: 5px; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    color:#ebebeb;
+    width:1000;
+    height:250px;
+    /* text-align:center; */
+    font-size: 50px;
+    /* margin:auto; */
+    top:20px;
+    /* left:500px; */
+    /* bottom:auto; */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+.innertext{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.title{
+    margin-top: 100px;
+}
+
+.link{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+#heart {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    animation: heartbeat 1s infinite;
+    /* margin:0 auto */
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 100px;
+    top: 0;
+    width: 100px;
+    height: 160px;
+    background: #fff;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+
+.projects{
+  background-color:rgb(244,253,255);
+  min-height: 1300px;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+
+}
+
+.positioning1{
+  display:flex;
+}
+
+.positioning2{
+  display:flex;
+}
+
+.boximage{
+  border-radius: 20px 20px 20px 20px;
+  width:500px;
+  height:500px;
+  margin:75px;
+}
+
+.boximage2{
+  border-radius: 20px 20px 20px 20px;
+  width:700px;
+  height:500px;
+  margin:75px;
+}
+
+.boximage3{
+  border-radius: 20px 20px 20px 20px;
+  height:500px;
+  margin:50px;
+}
+
+.boximage4{
+  border-radius: 20px 20px 20px 20px;
+  height:500px;
+  margin-top:50px;
+  margin-right:50px;
+}
+.boximage5{
+  border-radius: 20px 20px 20px 20px;
+  height:500px;
+  margin:50px;
+}
+
+
+
+/* .projects2{
+  background-color:rgb(110,134,149);
+  min-height: 780px;
+  border-radius: 40px 40px 40px 40px;
+  min-width: 1350px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+
+} */
+
+/* .positioning2{
+  position:relative;
+  top: 300px;
+  display:flex;
+  justify-content: left;
+} */
+
+
+.contact{
+  color:white;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /* top:40px;
+  height:150px; */
+  font-family:helvetica;
+  font-weight: bold;
+}
+
+.bottomportion{
+  display:flex;
+  justify-content: center;
+  min-height: 200px;
+}
+
+h1{
+  font-weight:bold;
+}
