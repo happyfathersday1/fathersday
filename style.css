@@ -53,19 +53,14 @@ body{
 }
 
 .firstnote{
-    /* position:absolute; */
-    /* letter-spacing: 5px; */
+
     font-family: 'Montserrat', sans-serif;
     font-weight:500;
     color:#ebebeb;
     width:1000;
     height:250px;
-    /* text-align:center; */
     font-size: 50px;
-    /* margin:auto; */
     top:20px;
-    /* left:500px; */
-    /* bottom:auto; */
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -189,33 +184,31 @@ body{
 
 .boximage{
   border-radius: 20px 20px 20px 20px;
-  width:500px;
-  height:500px;
+width:25%;
   margin:75px;
 }
 
 .boximage2{
   border-radius: 20px 20px 20px 20px;
-  width:700px;
-  height:500px;
+  width:50%;
   margin:75px;
 }
 
 .boximage3{
   border-radius: 20px 20px 20px 20px;
-  height:500px;
+  width:20%;
   margin:50px;
 }
 
 .boximage4{
   border-radius: 20px 20px 20px 20px;
-  height:500px;
+  width:25%;
   margin-top:50px;
   margin-right:50px;
 }
 .boximage5{
   border-radius: 20px 20px 20px 20px;
-  height:500px;
+  width:70%;
   margin:50px;
 }
 
